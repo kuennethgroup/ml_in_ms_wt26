@@ -1,0 +1,35 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+
+AutogluonModels
+tmp
+*delete_later*
+lightning_logs
+my_pytorch_model
+model.png
+
+
+test.ipynb
+
+01_hack/
+02_hack/
+
+02_ex/
+03_ex/
+04_ex/
+05_ex/
+06_ex/
+07_ex/
+08_ex/
+09_ex/
+10_ex/
+11_ex/

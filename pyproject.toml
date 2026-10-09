@@ -1,0 +1,34 @@
+[project]
+name = "ml-in-ms-wt26"
+version = "0.1.0"
+description = "Exercises for Machine Learning in Materials Science (winter term 2026/27), University of Bayreuth"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "autogluon>=1.4.0",
+    "ax-platform>=1.1.2",
+    "flaml[automl]>=2.3.6",
+    "flax>=0.12.7",
+    "google-genai>=1.42.0",
+    "ipykernel>=6.30.1",
+    "ipywidgets>=8.1.7",
+    "jax>=0.7.2",
+    "matplotlib>=3.10.7",
+    "nbformat>=5.10.4",
+    "ollama>=0.6.3",
+    "pandas>=2.3.3",
+    "psmiles",
+    "pydot>=4.0.1",
+    "rdkit",
+    "scikit-learn>=1.7.2",
+    "sdv>=1.27.0",
+    "seaborn>=0.13.2",
+    "streamlit>=1.50.0",
+    "tensorflow>=2.20.0",
+    "umap-learn[plot]>=0.5.9.post2",
+    "wikipedia-api>=0.8.1",
+    "wordcloud>=1.9.4",
+]
+
+[tool.uv.sources]
+psmiles = { git = "https://github.com/kuennethgroup/psmiles" }
