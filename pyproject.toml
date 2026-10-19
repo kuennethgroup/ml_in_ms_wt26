@@ -23,6 +23,7 @@ dependencies = [
     "scikit-learn>=1.7.2",
     "sdv>=1.27.0",
     "seaborn>=0.13.2",
+    "shap>=0.53.0",
     "streamlit>=1.50.0",
     "tensorflow>=2.20.0",
     "umap-learn[plot]>=0.5.9.post2",
